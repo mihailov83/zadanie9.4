@@ -1,7 +1,10 @@
 // scripts.js
 
-function drawTree(a) {
-    for (i = 1; i <= a; i++) {
+var i;
+var j;
+
+function drawTree(tree) {
+    for (i = 1; i <= tree; i++) {
         var star = '';
         for (j = 1; j <= i; j++) {
             star += '*';
